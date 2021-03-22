@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="请选择加入的个数"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/tvnumm"
+            android:text="1"
+            android:textSize="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></TextView>
+        <ImageView
+            android:id="@+id/ivplus"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/compose_authentication_icon_plus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            ></ImageView>
+    </LinearLayout>
+    <Button
+        android:id="@+id/bton"
+        android:text="确定"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></Button>
+</LinearLayout>

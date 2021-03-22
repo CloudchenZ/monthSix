@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <CheckBox
+            android:id="@+id/cbx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></CheckBox>
+        <ImageView
+            android:id="@+id/iv_list_gwc"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            ></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:textSize="25dp"
+                android:text="价格：1000"
+                android:id="@+id/list_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                ></TextView>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+                android:text="1"
+                android:id="@+id/list_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                ></TextView>
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/compose_authentication_icon_plus"
+                android:id="@+id/iv_plus"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                ></ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:textSize="25dp"
+                android:id="@+id/title_list_gwc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                ></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
